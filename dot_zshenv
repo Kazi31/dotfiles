@@ -4,3 +4,5 @@ export XDG_CURRENT_DESKTOP=sway
 
 export XDG_PICTURES_DIR="/home/artur/Pictures"
 export XDG_SCREENSHOTS_DIR="$XDG_PICTURES_DIR/Screenshots"
+
+export MOZ_ENABLE_WAYLAND=1
