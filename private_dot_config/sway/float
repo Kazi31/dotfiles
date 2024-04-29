@@ -1,0 +1,15 @@
+for_window [title="."] title_format "%title"
+
+for_window [app_id="pcmanfm-qt" title="Copy Files"] floating enable
+for_window [app_id="pcmanfm-qt" title="Confirm to replace files"] floating enable
+for_window [app_id="pcmanfm-qt" title="Move files"] floating enable
+for_window [app_id="pcmanfm-qt" title="File Properties"] floating enable
+
+for_window [class="steam" title="Add Non-Steam Game"] floating enable
+#for_window [class="steam" title="Steam Settings"] floating enable
+#for_window [class="steam" title="Friends List"] floating enable
+
+for_window [class="Godot" title="Create Folder"] floating enable
+for_window [class="Godot" title="Open a Directory"] floating enable
+for_window [class="Godot" title="Create New Project"] floating enable
+for_window [class="Godot" title="Create New Node"] floating enable
