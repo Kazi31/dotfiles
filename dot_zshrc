@@ -24,4 +24,4 @@ setopt prompt_subst
 #PROMPT='%F{cyan}%n%f@%F{white}%m%f ${vcs_info_msg_0_}%F{white}%1~%f$ '
 PROMPT='%F{cyan}%n%f ${vcs_info_msg_0_}%F{white}%1~%f$ '
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
