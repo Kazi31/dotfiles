@@ -112,4 +112,5 @@ font pango: Lato 12
 include ~/.config/sway/float
 include ~/.config/sway/binds
 include ~/.config/sway/outputs
+include ~/.config/sway/workspaces
 include /etc/sway/config.d/*
