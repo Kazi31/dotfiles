@@ -1,18 +1,11 @@
-#neofetch
-#PF_COL3=6 PF_COL1=6 PF_INFO="ascii title os kernel shell pkgs uptime memory" PF_SEP="" pfetch
-
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/artur/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 REPORTTIME=-1
 # End of lines configured by zsh-newuser-install
+
+autoload -U compinit; compinit
 
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' formats '%F{yellow}(%b)%f ' enable git svn
@@ -21,7 +14,6 @@ precmd() {
 }
 
 setopt prompt_subst
-#PROMPT='%F{cyan}%n%f@%F{white}%m%f ${vcs_info_msg_0_}%F{white}%1~%f$ '
 PROMPT='%F{cyan}%n%f ${vcs_info_msg_0_}%F{white}%1~%f$ '
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
