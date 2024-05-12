@@ -1,1 +1,7 @@
-# dotfiles
+# my dotfiles!
+
+```
+zsh
+sway
+mako
+```
