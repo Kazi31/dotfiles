@@ -4,4 +4,5 @@
 zsh
 sway
 mako
+i3status
 ```
