@@ -39,7 +39,8 @@ exec flatpak run net.waterfox.waterfox
 exec steam
 
 # Wallpaper
-exec swaybg -i ~/.config/sway/bg.png
+#exec swaybg -i ~/.config/sway/bg_dark.png
+exec swaybg -c 000000
 
 # Kill that stupid Sharing Indicator Window in Firefox and Waterfox
 # note: firefox one have not been tested
