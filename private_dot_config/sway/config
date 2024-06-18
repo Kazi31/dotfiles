@@ -52,7 +52,7 @@ for_window [app_id="waterfox" title="Waterfox — Sharing Indicator"] {
 
 assign [class="WebCord"] workspace number 5
 assign [app_id="waterfox"] workspace number 4
-assign [class="steam"] workspace number 3
+assign [class="steam"] workspace number 6
 
 exec swaymsg input * xkb_layout "pl" xkb_variant "QWERTY"
 input "1133:49291:Logitech_G502_HERO_Gaming_Mouse" {
@@ -105,6 +105,9 @@ title_align center
 smart_borders 1
 
 titlebar_border_thickness 0
+
+focus_on_window_activation urgent
+no_focus [window_role="pop-up"]
 
 default_border normal 4
 default_floating_border normal 4
