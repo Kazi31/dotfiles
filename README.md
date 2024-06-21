@@ -6,4 +6,5 @@ sway
 mako
 i3status
 playerctl
+gammastep
 ```

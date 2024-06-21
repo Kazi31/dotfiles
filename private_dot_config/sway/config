@@ -43,6 +43,9 @@ exec proton-mail
 #exec swaybg -i ~/.config/sway/bg_dark.png
 exec swaybg -c 000000
 
+# Gammastep 
+exec gammastep -l $(cat ~/location) -t 6500:2700
+
 # Kill that stupid Sharing Indicator Window in Firefox and Waterfox
 # note: firefox one have not been tested
 for_window [app_id="firefox" title="Firefox — Sharing Indicator"] {
