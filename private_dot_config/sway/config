@@ -37,6 +37,7 @@ exec /usr/lib/xdg-desktop-portal -r & /usr/lib/xdg-desktop-portal-wlr
 exec flatpak run io.github.spacingbat3.webcord
 exec flatpak run net.waterfox.waterfox
 exec steam
+exec proton-mail
 
 # Wallpaper
 #exec swaybg -i ~/.config/sway/bg_dark.png
@@ -51,9 +52,10 @@ for_window [app_id="waterfox" title="Waterfox — Sharing Indicator"] {
   kill
 }
 
-assign [class="WebCord"] workspace number 5
-assign [app_id="waterfox"] workspace number 4
-assign [class="steam"] workspace number 6
+assign [class="steam"] workspace number 4
+assign [app_id="waterfox"] workspace number 5
+assign [class="Proton Mail"] workspace number 6
+assign [class="WebCord"] workspace number 7
 
 exec swaymsg input * xkb_layout "pl" xkb_variant "QWERTY"
 input "1133:49291:Logitech_G502_HERO_Gaming_Mouse" {

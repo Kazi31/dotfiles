@@ -5,7 +5,7 @@ bindsym $mod+q exec $term
 #bindsym $mod+w exec flatpak run net.waterfox.waterfox
 
 # Start File Manager
-bindsym $mod+e exec pcmanfm-qt
+bindsym $mod+e exec nemo
 
 # Kill focused window
 bindsym $mod+Shift+q kill
