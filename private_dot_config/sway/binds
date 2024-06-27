@@ -38,7 +38,7 @@ bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 
 # Screenshot
 bindsym Print exec grimshot --notify save screen
-bindsym Shift+Print exec grimshot --notify savecopy anything)
+bindsym Shift+Print exec grimshot --notify savecopy anything
 bindsym Ctrl+Shift+Print exec ~/.scripts/grimshot-gimp.sh
 
 
